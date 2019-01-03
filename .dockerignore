@@ -1,0 +1,6 @@
+*
+*/
+!bin/
+!build/
+!conf/
+!package.json

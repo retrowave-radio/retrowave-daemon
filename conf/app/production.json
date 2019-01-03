@@ -1,0 +1,12 @@
+{
+  "app": {
+    "uploadDir": "/var/data/retrowave-fs/upload/",
+    "downloadDir": "/var/data/retrowave-fs/download/"
+  },
+  "air": {
+    "redis": {
+      "port": 6379,
+      "host": "retrowave-air-1"
+    }
+  }
+}
