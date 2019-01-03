@@ -4,6 +4,10 @@
   "description": "Retrowave Radio - File System",
   "author": "Andrey Kravtsov <raidendev@gmail.com>",
   "license": "GPLv3",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:retrowave-radio/retrowave-fs.git"
+  },
   "scripts": {
     "start": "pm2 start conf/ecosystem.config.js",
     "build": "babel -d build/ src/",
