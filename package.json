@@ -2,11 +2,17 @@
   "name": "retrowave-fs",
   "version": "1.0.0",
   "description": "Retrowave Radio - File System",
-  "author": "Andrey Kravtsov <raidendev@gmail.com>",
   "license": "GPLv3",
+  "author": "Andrey Kravtsov <raidendev@gmail.com>",
+  "homepage": "https://github.com/retrowave-radio/retrowave-fs",
+  "bugs": "https://github.com/retrowave-radio/retrowave-fs/issues",
   "repository": {
     "type": "git",
     "url": "git@github.com:retrowave-radio/retrowave-fs.git"
+  },
+  "main": "build/app/index.js",
+  "bin": {
+    "app": "bin/app"
   },
   "scripts": {
     "start": "pm2 start conf/ecosystem.config.js",
