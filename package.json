@@ -2,7 +2,7 @@
   "name": "retrowave-fs",
   "version": "1.0.0",
   "description": "Retrowave Radio - File System",
-  "license": "GPLv3",
+  "license": "GPL-3.0-only",
   "author": "Andrey Kravtsov <raidendev@gmail.com>",
   "homepage": "https://github.com/retrowave-radio/retrowave-fs",
   "bugs": "https://github.com/retrowave-radio/retrowave-fs/issues",
