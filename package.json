@@ -21,15 +21,14 @@
     "watch": "babel -w -d build/ src/"
   },
   "babel": {
-    "presets": [
-      "es2015",
-      "es2016"
+    "plugins": [
+      "@babel/plugin-transform-modules-commonjs"
     ]
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-es2016": "^6.24.1"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0"
   },
   "dependencies": {
     "fs-extra": "^7.0.1",
