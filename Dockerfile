@@ -20,4 +20,4 @@ RUN npm install
 VOLUME /var/data/retrowave-fs/upload/
 VOLUME /var/data/retrowave-fs/download/
 
-ENTRYPOINT ["pm2", "start", "--no-daemon", "conf/ecosystem.config.js"]
+ENTRYPOINT ["pm2-runtime", "conf/ecosystem.config.js"]
