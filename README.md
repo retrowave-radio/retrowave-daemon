@@ -12,7 +12,7 @@ Simply it carry on two tasks:
 Install dependencies.
 
 ```sh
-npm -g install pm2@2
+npm -g install pm2@3
 npm install
 ```
 

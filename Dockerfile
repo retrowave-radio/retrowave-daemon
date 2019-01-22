@@ -14,7 +14,7 @@ COPY package.json package.json
 RUN mkdir -p /var/data/retrowave-fs/download/audio/ && \
     mkdir -p /var/data/retrowave-fs/download/artwork/
 
-RUN npm -g install pm2
+RUN npm -g install pm2@3
 RUN npm install
 
 VOLUME /var/data/retrowave-fs/upload/
