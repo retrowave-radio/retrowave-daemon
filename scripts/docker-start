@@ -8,6 +8,7 @@ docker rm -f ${container_name}
 
 docker run \
   -d \
+  --restart unless-stopped \
   --network ${network_name} \
   --dns-opt 'ndots:1' \
   -v ~/Music/:/var/data/retrowave-fs/upload/ \
