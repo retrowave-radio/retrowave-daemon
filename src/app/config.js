@@ -1,8 +1,7 @@
-import production from '../../conf/app/production.json';
-import development from '../../conf/app/development.json';
+const env = process.env.NODE_ENV === 'development' ?
+  'development' :
+  'production';
 
-const config = process.env.NODE_ENV === 'development' ?
-  development :
-  production;
+const config = require(`../../conf/app/${env}.json`);
 
 export default config;
