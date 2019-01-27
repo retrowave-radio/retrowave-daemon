@@ -12,7 +12,7 @@ RUN mkdir -p /var/data/retrowave-fs/download/audio/ && \
 
 RUN npm -g install pm2@3
 
-COPY package.json package.json
+COPY package*.json ./
 RUN npm install
 
 COPY bin/ bin/
