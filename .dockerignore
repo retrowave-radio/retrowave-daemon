@@ -3,4 +3,4 @@
 !bin/
 !build/
 !conf/
-!package.json
+!package*.json
