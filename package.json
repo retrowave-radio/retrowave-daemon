@@ -18,7 +18,9 @@
     "start": "pm2 start conf/ecosystem.config.js",
     "build": "babel -d build/ src/",
     "clean": "rm -rf build/*",
-    "watch": "babel -w -d build/ src/"
+    "watch": "babel -w -d build/ src/",
+    "rollout": "tools/ops-docker/ops-docker -c conf/docker.cfg rollout",
+    "rollback": "tools/ops-docker/ops-docker -c conf/docker.cfg rollback"
   },
   "babel": {
     "plugins": [

@@ -1,0 +1,5 @@
+[submodule "tools/ops-docker"]
+	shallow = true
+	path = tools/ops-docker
+	url = git@github.com:ops-tools/ops-docker.git
+	branch = master
