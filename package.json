@@ -1,14 +1,14 @@
 {
-  "name": "retrowave-fs",
+  "name": "retrowave-fproc",
   "version": "1.0.0",
-  "description": "Retrowave Radio - File System",
+  "description": "Retrowave Radio - File Processor",
   "license": "GPL-3.0-only",
   "author": "Andrey Kravtsov <raidendev@gmail.com>",
-  "homepage": "https://github.com/retrowave-radio/retrowave-fs",
-  "bugs": "https://github.com/retrowave-radio/retrowave-fs/issues",
+  "homepage": "https://github.com/retrowave-radio/retrowave-fproc",
+  "bugs": "https://github.com/retrowave-radio/retrowave-fproc/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/retrowave-radio/retrowave-fs.git"
+    "url": "https://github.com/retrowave-radio/retrowave-fproc.git"
   },
   "main": "build/app/index.js",
   "bin": {

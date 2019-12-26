@@ -1,7 +1,7 @@
 {
   "app": {
-    "uploadDir": "/var/data/retrowave-fs/upload/",
-    "downloadDir": "/var/data/retrowave-fs/download/"
+    "uploadDir": "/var/data/retrowave-fproc/upload/",
+    "downloadDir": "/var/data/retrowave-fproc/download/"
   },
   "air": {
     "redis": {

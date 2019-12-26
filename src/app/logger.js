@@ -10,7 +10,7 @@
     }
 
     debug(...args) {
-      if (/retrowave-fs/.test(process.env.NODE_DEBUG)) {
+      if (/retrowave-fproc/.test(process.env.NODE_DEBUG)) {
         console.log(...args);
       }
     }
