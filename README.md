@@ -1,4 +1,4 @@
-# Retrowave Radio - File Processor
+# Retrowave Radio - On-air Daemon
 
 File processing service for automated broadcast management.
 
@@ -33,5 +33,5 @@ npm run watch
 To enable debug log messages set NODE_DEBUG environment variable.
 
 ```sh
-export NODE_DEBUG=retrowave-fproc
+export NODE_DEBUG=retrowave-daemon
 ```

@@ -1,14 +1,14 @@
 {
-  "name": "retrowave-fproc",
+  "name": "retrowave-daemon",
   "version": "1.0.0",
-  "description": "Retrowave Radio - File Processor",
+  "description": "Retrowave Radio - On-air Daemon",
   "license": "GPL-3.0-only",
   "author": "Andrey Kravtsov <raidendev@gmail.com>",
-  "homepage": "https://github.com/retrowave-radio/retrowave-fproc",
-  "bugs": "https://github.com/retrowave-radio/retrowave-fproc/issues",
+  "homepage": "https://github.com/retrowave-radio/retrowave-daemon",
+  "bugs": "https://github.com/retrowave-radio/retrowave-daemon/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/retrowave-radio/retrowave-fproc.git"
+    "url": "https://github.com/retrowave-radio/retrowave-daemon.git"
   },
   "main": "build/app/index.js",
   "bin": {

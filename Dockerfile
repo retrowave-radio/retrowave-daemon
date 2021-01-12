@@ -2,7 +2,7 @@ FROM node:10.15-alpine
 
 LABEL maintainer="Andrey Kravtsov <raidendev@gmail.com>"
 
-ARG name=retrowave-fproc
+ARG name=retrowave-daemon
 
 ENV NODE_ENV=production
 
